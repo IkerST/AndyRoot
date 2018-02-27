@@ -1,3 +1,4 @@
+echo "You'll maybe need to manually setup connection whit your emulator"
 #get ip (not working :v)
 #$ip = IniRead(@AppDataDir & "\Andy\HandyAndy\HandyAndy.ini", "Current", "ipaddr", "error")
 #connect adb to Andy
