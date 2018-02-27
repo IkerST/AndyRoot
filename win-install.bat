@@ -1,7 +1,7 @@
-#get ip
-$ip = IniRead(@AppDataDir & "\Andy\HandyAndy\HandyAndy.ini", "Current", "ipaddr", "error")
+#get ip (not working :v)
+#$ip = IniRead(@AppDataDir & "\Andy\HandyAndy\HandyAndy.ini", "Current", "ipaddr", "error")
 #connect adb to Andy
-adb.exe connect $ip
+#adb.exe connect $ip
 #start adb as root
 adb.exe root
 #install SuperSU.apk
